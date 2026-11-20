@@ -1,0 +1,204 @@
+{
+ "lane": {
+  "default": {
+   "free": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 599.9625743566613,
+    "min_margin": 0.8178001013818094,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.562299540583466,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 599.9625743566613,
+    "min_margin": 0.8178001013818094,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.685997058749982,
+    "filter_us": 127.429641250045
+   }
+  },
+  "short data": {
+   "free": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 589.6325012346749,
+    "min_margin": 0.304257932871863,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.4702492322501635,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 589.6325012346749,
+    "min_margin": 0.304257932871863,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.569308855166691,
+    "filter_us": 121.39600658327983
+   }
+  },
+  "noisy data": {
+   "free": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 599.4601272864959,
+    "min_margin": 0.7331642697767935,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.985393111666494,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 599.4601272864959,
+    "min_margin": 0.7331642697767935,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.912047110333016,
+    "filter_us": 119.60950191703765
+   }
+  },
+  "stiff limits": {
+   "free": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 599.9625560171771,
+    "min_margin": 0.8178086258860612,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.7771165076667614,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 599.9625560171771,
+    "min_margin": 0.8178086258860612,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 2.8078663213335253,
+    "filter_us": 126.30588174985746
+   }
+  }
+ },
+ "quad": {
+  "default": {
+   "free": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 579.0376934616628,
+    "min_margin": 0.08682118654177318,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 35.73402387058326,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 578.5369634590892,
+    "min_margin": 0.08770630224823706,
+    "filtered_share": 0.03925,
+    "mean_correction": 0.042120210557928625,
+    "ctrl_ms": 35.73134120216671,
+    "filter_us": 231.592307166873
+   }
+  },
+  "short data": {
+   "free": {
+    "episodes": 20,
+    "crashes": 5,
+    "ret": 421.9181147112058,
+    "min_margin": -0.0063479017993908204,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 24.18086345169745,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 546.6515987838521,
+    "min_margin": 0.08251521229554282,
+    "filtered_share": 0.030666666666666665,
+    "mean_correction": 0.03343036517433718,
+    "ctrl_ms": 22.589387542916448,
+    "filter_us": 226.59562300020752
+   }
+  },
+  "noisy data": {
+   "free": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 557.5366674945585,
+    "min_margin": 0.13891874827986495,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 11.270325266083036,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 557.5129037476685,
+    "min_margin": 0.138918748341195,
+    "filtered_share": 0.0009166666666666666,
+    "mean_correction": 0.0009507582341093614,
+    "ctrl_ms": 11.182817470583414,
+    "filter_us": 214.85032124972273
+   }
+  },
+  "stiff limits": {
+   "free": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 579.0248897530724,
+    "min_margin": 0.08550451132479298,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 98.69022039533428,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 578.5302265006981,
+    "min_margin": 0.08801033978514383,
+    "filtered_share": 0.03925,
+    "mean_correction": 0.042134514489510416,
+    "ctrl_ms": 97.65930800983462,
+    "filter_us": 237.415473913984
+   }
+  },
+  "no back-off": {
+   "free": {
+    "episodes": 20,
+    "crashes": 2,
+    "ret": 554.642474525157,
+    "min_margin": -0.0008965482873892761,
+    "filtered_share": 0.0,
+    "mean_correction": 0.0,
+    "ctrl_ms": 28.330060618311467,
+    "filter_us": 0.0
+   },
+   "filtered": {
+    "episodes": 20,
+    "crashes": 0,
+    "ret": 580.9811038079096,
+    "min_margin": 0.07307335106148471,
+    "filtered_share": 0.22516666666666665,
+    "mean_correction": 0.4187283789746559,
+    "ctrl_ms": 27.305930313669098,
+    "filter_us": 218.07150641454123
+   }
+  }
+ }
+}

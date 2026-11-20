@@ -1,0 +1,2343 @@
+{
+ "lane": {
+  "coverage": {
+   "nominal": 0.4569118923611111
+  },
+  "nominal": {
+   "nominal": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.02121334923486551,
+     "filtered_share": 0.2105
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.02204319444682168,
+     "filtered_share": 0.8236666666666667
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.01812412263860308,
+     "filtered_share": 0.9946666666666667
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x1.25": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 3,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.015150672178678493,
+     "filtered_share": 0.22641666666666665
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 4,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.016793627711010894,
+     "filtered_share": 0.8233333333333334
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 2,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.01444956975992151,
+     "filtered_share": 0.9946666666666667
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 2,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x1.5": {
+    "random": {
+     "episodes": 20,
+     "crashes": 1,
+     "alarm_episodes": 6,
+     "crashes_alarmed_first": 1,
+     "lead_steps_median": 139.0,
+     "lead_steps_min": 139,
+     "min_margin": -0.034959261109295925,
+     "filtered_share": 0.24250704465886774
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 2,
+     "alarm_episodes": 6,
+     "crashes_alarmed_first": 2,
+     "lead_steps_median": 51.5,
+     "lead_steps_min": 49,
+     "min_margin": -0.040109864407859463,
+     "filtered_share": 0.8209022286125089
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 2,
+     "alarm_episodes": 5,
+     "crashes_alarmed_first": 2,
+     "lead_steps_median": 60.0,
+     "lead_steps_min": 49,
+     "min_margin": -0.051996724650870574,
+     "filtered_share": 0.9939260563380282
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 5,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x2": {
+    "random": {
+     "episodes": 20,
+     "crashes": 4,
+     "alarm_episodes": 9,
+     "crashes_alarmed_first": 4,
+     "lead_steps_median": 40.0,
+     "lead_steps_min": 27,
+     "min_margin": -0.13103437038178312,
+     "filtered_share": 0.2627029103832485
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 5,
+     "alarm_episodes": 9,
+     "crashes_alarmed_first": 5,
+     "lead_steps_median": 84.0,
+     "lead_steps_min": 23,
+     "min_margin": -0.05056209814215995,
+     "filtered_share": 0.8163710236844713
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 4,
+     "alarm_episodes": 8,
+     "crashes_alarmed_first": 4,
+     "lead_steps_median": 26.0,
+     "lead_steps_min": 12,
+     "min_margin": -0.05565886578050272,
+     "filtered_share": 0.9926224010731053
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 8,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x3": {
+    "random": {
+     "episodes": 20,
+     "crashes": 9,
+     "alarm_episodes": 14,
+     "crashes_alarmed_first": 9,
+     "lead_steps_median": 44.0,
+     "lead_steps_min": 17,
+     "min_margin": -0.049552241178663525,
+     "filtered_share": 0.28066578217344107
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 9,
+     "alarm_episodes": 14,
+     "crashes_alarmed_first": 9,
+     "lead_steps_median": 40.0,
+     "lead_steps_min": 14,
+     "min_margin": -0.10549674752194949,
+     "filtered_share": 0.8073109544857245
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 7,
+     "alarm_episodes": 12,
+     "crashes_alarmed_first": 7,
+     "lead_steps_median": 29.0,
+     "lead_steps_min": 4,
+     "min_margin": -0.05173332992051538,
+     "filtered_share": 0.9880965624652353
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 10,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371781131348227,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise S": {
+    "random": {
+     "episodes": 20,
+     "crashes": 3,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 3,
+     "lead_steps_median": 318.0,
+     "lead_steps_min": 286,
+     "min_margin": -0.02591920266172998,
+     "filtered_share": 0.20852747252747253
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 9,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 9,
+     "lead_steps_median": 150.0,
+     "lead_steps_min": 59,
+     "min_margin": -0.07093755364541732,
+     "filtered_share": 0.8185629439850938
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 7,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 7,
+     "lead_steps_median": 162.0,
+     "lead_steps_min": 19,
+     "min_margin": -0.039625985804061625,
+     "filtered_share": 0.9912357581069238
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise M": {
+    "random": {
+     "episodes": 20,
+     "crashes": 14,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 14,
+     "lead_steps_median": 92.0,
+     "lead_steps_min": 37,
+     "min_margin": -0.06483100798784558,
+     "filtered_share": 0.18076988299135152
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 27.0,
+     "lead_steps_min": 15,
+     "min_margin": -0.11948481031796698,
+     "filtered_share": 0.7627118644067796
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 25.5,
+     "lead_steps_min": 7,
+     "min_margin": -0.07094150780346309,
+     "filtered_share": 0.8245823389021479
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise L": {
+    "random": {
+     "episodes": 20,
+     "crashes": 19,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 19,
+     "lead_steps_median": 47.0,
+     "lead_steps_min": 10,
+     "min_margin": -0.11121632612316101,
+     "filtered_share": 0.12831125827814568
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 11.0,
+     "lead_steps_min": 7,
+     "min_margin": -0.22295788954949358,
+     "filtered_share": 0.25957446808510637
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 10.5,
+     "lead_steps_min": 7,
+     "min_margin": -0.2214207046450981,
+     "filtered_share": 0.308300395256917
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "steering 1 step late": {
+    "random": {
+     "episodes": 20,
+     "crashes": 18,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 18,
+     "lead_steps_median": 49.0,
+     "lead_steps_min": 13,
+     "min_margin": -0.095365658946299,
+     "filtered_share": 0.14731585518102372
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 10.0,
+     "lead_steps_min": 8,
+     "min_margin": -0.20557751139788405,
+     "filtered_share": 0.13617021276595745
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 10.0,
+     "lead_steps_min": 8,
+     "min_margin": -0.19764292490002167,
+     "filtered_share": 0.13675213675213677
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8249881264695639,
+     "filtered_share": 0.0
+    }
+   },
+   "steering 2 steps late": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 79.5,
+     "lead_steps_min": 15,
+     "min_margin": -0.10208693749272446,
+     "filtered_share": 0.09986130374479889
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 11.0,
+     "lead_steps_min": 9,
+     "min_margin": -0.24571366747647028,
+     "filtered_share": 0.12
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 11.0,
+     "lead_steps_min": 9,
+     "min_margin": -0.23236843541116425,
+     "filtered_share": 0.11952191235059761
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 2,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 2,
+     "lead_steps_median": 142.5,
+     "lead_steps_min": 125,
+     "min_margin": -0.022660295824828758,
+     "filtered_share": 0.03619909502262444
+    }
+   }
+  },
+  "none": {
+   "nominal": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.14412656148503467,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25277900654431595,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2536478852439107,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x1.25": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.0961224240405566,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25182093380487813,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25460612533844695,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x1.5": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.08550613402917939,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2508628271953809,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25556433170379955,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x2": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.07809796016276982,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.24894651252089461,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2574806430922466,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "curvature x3": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.11325957237448836,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.24511347843299436,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2613128594173707,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371781131348227,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise S": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.14412656148503467,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25277900654431595,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2536478852439107,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise M": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.14412656148503467,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25277900654431595,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2536478852439107,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise L": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.14412656148503467,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25277900654431595,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2536478852439107,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "steering 1 step late": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.11848829824556639,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2534666860132767,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25296030124422664,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8249881264695639,
+     "filtered_share": 0.0
+    }
+   },
+   "steering 2 steps late": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.10510180075223186,
+     "filtered_share": 0.0
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.25229377662353125,
+     "filtered_share": 0.0
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.2541332882228383,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 2,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.023554415417574304,
+     "filtered_share": 0.0
+    }
+   }
+  },
+  "aware": {
+   "sensor noise S": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.031935013275909085,
+     "filtered_share": 0.2175
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.031084331038698232,
+     "filtered_share": 0.8306666666666667
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.027054511044712015,
+     "filtered_share": 0.9943333333333333
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise M": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.053245192526832685,
+     "filtered_share": 0.21133333333333335
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.053459857294092195,
+     "filtered_share": 0.83775
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.04058083074809238,
+     "filtered_share": 0.9729166666666667
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8371989100469055,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise L": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.11105932068937763,
+     "filtered_share": 0.21733333333333332
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.1001270599897367,
+     "filtered_share": 0.7755833333333333
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0797500314087003,
+     "filtered_share": 0.81175
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8351393020198543,
+     "filtered_share": 0.0003333333333333333
+    }
+   },
+   "steering 1 step late": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.03493031008910097,
+     "filtered_share": 0.23041666666666666
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.04176230968895822,
+     "filtered_share": 0.8490833333333333
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.038061124051648854,
+     "filtered_share": 0.9953333333333333
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.8249881264695639,
+     "filtered_share": 0.0
+    }
+   },
+   "steering 2 steps late": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.06303796533681494,
+     "filtered_share": 0.24858333333333332
+    },
+    "bang-bang": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.06303065516389306,
+     "filtered_share": 0.875
+    },
+    "full-lock": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.054646805593071,
+     "filtered_share": 0.99675
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 17,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.3077017219262529,
+     "filtered_share": 0.12775
+    }
+   }
+  }
+ },
+ "quad": {
+  "coverage": {
+   "nominal": [
+    0.42966493055555555,
+    0.8041666666666667
+   ],
+   "robust": [
+    0.18020225694444444,
+    0.6191666666666666
+   ]
+  },
+  "nominal": {
+   "nominal": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0327786919151935,
+     "filtered_share": 0.16625
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07215585878855624,
+     "filtered_share": 0.6093333333333333
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.02191013402631503,
+     "filtered_share": 0.9865
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.09527140530221756,
+     "filtered_share": 0.09275
+    }
+   },
+   "gusts x1.5": {
+    "random": {
+     "episodes": 20,
+     "crashes": 2,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 2,
+     "lead_steps_median": 236.5,
+     "lead_steps_min": 154,
+     "min_margin": -0.014309411610682776,
+     "filtered_share": 0.16481957620356413
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 3,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 3,
+     "lead_steps_median": 247.0,
+     "lead_steps_min": 21,
+     "min_margin": -0.030938649635034565,
+     "filtered_share": 0.6110156461969792
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 16,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 16,
+     "lead_steps_median": 94.5,
+     "lead_steps_min": 17,
+     "min_margin": -0.05090691985965101,
+     "filtered_share": 0.9529652351738241
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0922044261640671,
+     "filtered_share": 0.107
+    }
+   },
+   "gusts x2": {
+    "random": {
+     "episodes": 20,
+     "crashes": 8,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 8,
+     "lead_steps_median": 222.5,
+     "lead_steps_min": 84,
+     "min_margin": -0.05677348037656915,
+     "filtered_share": 0.1552781663617777
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 121.0,
+     "lead_steps_min": 15,
+     "min_margin": -0.08877618104836338,
+     "filtered_share": 0.5486515071390798
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 30.5,
+     "lead_steps_min": 12,
+     "min_margin": -0.050818449421306866,
+     "filtered_share": 0.8109339407744874
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.08533222927250061,
+     "filtered_share": 0.11633333333333333
+    }
+   },
+   "gusts x3": {
+    "random": {
+     "episodes": 20,
+     "crashes": 18,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 18,
+     "lead_steps_median": 199.5,
+     "lead_steps_min": 46,
+     "min_margin": -0.031869124668316706,
+     "filtered_share": 0.13628587720965596
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 40.0,
+     "lead_steps_min": 15,
+     "min_margin": -0.10322521148882391,
+     "filtered_share": 0.385470719051149
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 17.0,
+     "lead_steps_min": 12,
+     "min_margin": -0.08126751655729647,
+     "filtered_share": 0.3493670886075949
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.06584071480584208,
+     "filtered_share": 0.10325
+    }
+   },
+   "sensor noise S": {
+    "random": {
+     "episodes": 20,
+     "crashes": 8,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 8,
+     "lead_steps_median": 256.0,
+     "lead_steps_min": 81,
+     "min_margin": -0.021783930884349267,
+     "filtered_share": 0.15531711462870498
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 19,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 19,
+     "lead_steps_median": 116.0,
+     "lead_steps_min": 14,
+     "min_margin": -0.04900459537747626,
+     "filtered_share": 0.5353641456582633
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 32.0,
+     "lead_steps_min": 19,
+     "min_margin": -0.08936646633531709,
+     "filtered_share": 0.6377245508982036
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.09553775171527157,
+     "filtered_share": 0.11708333333333333
+    }
+   },
+   "sensor noise M": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 129.0,
+     "lead_steps_min": 44,
+     "min_margin": -0.05625907855997703,
+     "filtered_share": 0.0918785890073831
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 27.0,
+     "lead_steps_min": 14,
+     "min_margin": -0.12778804857238968,
+     "filtered_share": 0.26666666666666666
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 15.0,
+     "lead_steps_min": 13,
+     "min_margin": -0.03048453298980025,
+     "filtered_share": 0.22590361445783133
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.09569331998578812,
+     "filtered_share": 0.11016666666666666
+    }
+   },
+   "sensor noise L": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 69.0,
+     "lead_steps_min": 27,
+     "min_margin": -0.03655843114791679,
+     "filtered_share": 0.06186666666666667
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 22.5,
+     "lead_steps_min": 14,
+     "min_margin": -0.0854961760672579,
+     "filtered_share": 0.08932038834951456
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 14.0,
+     "lead_steps_min": 13,
+     "min_margin": 0.13233881157173988,
+     "filtered_share": 0.10963455149501661
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0791905278823768,
+     "filtered_share": 0.05475
+    }
+   },
+   "tilt lag 0.25 s": {
+    "random": {
+     "episodes": 20,
+     "crashes": 7,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 7,
+     "lead_steps_median": 248.0,
+     "lead_steps_min": 97,
+     "min_margin": -0.0320223214786135,
+     "filtered_share": 0.14953852535517992
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 25.5,
+     "lead_steps_min": 16,
+     "min_margin": -0.1058552674223423,
+     "filtered_share": 0.20694259012016022
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 19,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 19,
+     "lead_steps_median": 16.0,
+     "lead_steps_min": 14,
+     "min_margin": -0.01640621003841103,
+     "filtered_share": 0.7364485981308411
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 6,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 6,
+     "lead_steps_median": 27.0,
+     "lead_steps_min": 26,
+     "min_margin": -0.019553902501960208,
+     "filtered_share": 0.0972027972027972
+    }
+   },
+   "tilt lag 0.4 s": {
+    "random": {
+     "episodes": 20,
+     "crashes": 16,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 16,
+     "lead_steps_median": 187.5,
+     "lead_steps_min": 40,
+     "min_margin": -0.03622869812581353,
+     "filtered_share": 0.11313868613138686
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 25.0,
+     "lead_steps_min": 20,
+     "min_margin": -0.11501356598480816,
+     "filtered_share": 0.08614864864864864
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 18.0,
+     "lead_steps_min": 17,
+     "min_margin": 0.07844491985580104,
+     "filtered_share": 0.1671018276762402
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 16,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 16,
+     "lead_steps_median": 30.5,
+     "lead_steps_min": 25,
+     "min_margin": -0.047436836333656585,
+     "filtered_share": 0.049937264742785446
+    }
+   }
+  },
+  "robust": {
+   "nominal": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0728488764948616,
+     "filtered_share": 0.22658333333333333
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.1675885470897942,
+     "filtered_share": 0.8481666666666666
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.054541176419825366,
+     "filtered_share": 0.9950833333333333
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.19543653835148228,
+     "filtered_share": 0.5620833333333334
+    }
+   },
+   "gusts x1.5": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07063487492342224,
+     "filtered_share": 0.222
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.168383533798996,
+     "filtered_share": 0.8488333333333333
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.05145453259396593,
+     "filtered_share": 0.9951666666666666
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.19267958985230405,
+     "filtered_share": 0.5641666666666667
+    }
+   },
+   "gusts x2": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.06990788691048255,
+     "filtered_share": 0.23291666666666666
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.1601166418772899,
+     "filtered_share": 0.8513333333333334
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.05086547263693175,
+     "filtered_share": 0.99525
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.1898903566309464,
+     "filtered_share": 0.5668333333333333
+    }
+   },
+   "gusts x3": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0677404658042815,
+     "filtered_share": 0.23925
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.14465002953252293,
+     "filtered_share": 0.8495
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.047880905444215305,
+     "filtered_share": 0.9953333333333333
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.1836588101346826,
+     "filtered_share": 0.5653333333333334
+    }
+   },
+   "sensor noise S": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07076128394222492,
+     "filtered_share": 0.223
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 1,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 1,
+     "lead_steps_median": 37.0,
+     "lead_steps_min": 37,
+     "min_margin": -0.09527136551431115,
+     "filtered_share": 0.8444658157020458
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 9,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 9,
+     "lead_steps_median": 264.0,
+     "lead_steps_min": 121,
+     "min_margin": -0.03494262376720636,
+     "filtered_share": 0.9894248408330636
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.19543653834026775,
+     "filtered_share": 0.5636666666666666
+    }
+   },
+   "sensor noise M": {
+    "random": {
+     "episodes": 20,
+     "crashes": 7,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 7,
+     "lead_steps_median": 274.0,
+     "lead_steps_min": 146,
+     "min_margin": -0.033502019507444636,
+     "filtered_share": 0.20642793373673246
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 64.5,
+     "lead_steps_min": 22,
+     "min_margin": -0.09118349811951165,
+     "filtered_share": 0.6292293233082706
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 34.0,
+     "lead_steps_min": 14,
+     "min_margin": -0.09556493218430884,
+     "filtered_share": 0.7271468144044322
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07916679661549797,
+     "filtered_share": 0.3631666666666667
+    }
+   },
+   "sensor noise L": {
+    "random": {
+     "episodes": 20,
+     "crashes": 19,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 19,
+     "lead_steps_median": 161.0,
+     "lead_steps_min": 40,
+     "min_margin": -0.03084669750065716,
+     "filtered_share": 0.13182583593937935
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 24.0,
+     "lead_steps_min": 13,
+     "min_margin": -0.1254207306445263,
+     "filtered_share": 0.13464991023339318
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 14.0,
+     "lead_steps_min": 13,
+     "min_margin": 0.25195018253419477,
+     "filtered_share": 0.2268370607028754
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07932631251858169,
+     "filtered_share": 0.138
+    }
+   },
+   "tilt lag 0.25 s": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0728488764948616,
+     "filtered_share": 0.23008333333333333
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 1,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 1,
+     "lead_steps_median": 108.0,
+     "lead_steps_min": 108,
+     "min_margin": -0.029985760722505583,
+     "filtered_share": 0.818142323399079
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.054541176419825366,
+     "filtered_share": 0.9933333333333333
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.09382349401282586,
+     "filtered_share": 0.5579166666666666
+    }
+   },
+   "tilt lag 0.4 s": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.0728488764948616,
+     "filtered_share": 0.229
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 20,
+     "lead_steps_median": 60.0,
+     "lead_steps_min": 22,
+     "min_margin": -0.09815361483606555,
+     "filtered_share": 0.6243362831858407
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 7,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 7,
+     "lead_steps_median": 15.0,
+     "lead_steps_min": 14,
+     "min_margin": 0.054541176419825366,
+     "filtered_share": 0.9804119802856059
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 6,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 6,
+     "lead_steps_median": 73.0,
+     "lead_steps_min": 29,
+     "min_margin": -0.04790613372568786,
+     "filtered_share": 0.46445795764311176
+    }
+   }
+  },
+  "none": {
+   "nominal": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.04014182898343732,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.11336788665689657,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.4182411286366605,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07932631251858169,
+     "filtered_share": 0.0
+    }
+   },
+   "gusts x1.5": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.051032343748234954,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.08101874257872765,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.36110749505574713,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.06727432374458397,
+     "filtered_share": 0.0
+    }
+   },
+   "gusts x2": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.05485406264255843,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.13529486241088917,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.3435746777981499,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.055244019441235914,
+     "filtered_share": 0.0
+    }
+   },
+   "gusts x3": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.039995034089630455,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.11222924493637532,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.2120638871099907,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.031248266814972725,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise S": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.04014182898343732,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.11336788665689657,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.4182411286366605,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07932631251858169,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise M": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.04014182898343732,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.11336788665689657,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.4182411286366605,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07932631251858169,
+     "filtered_share": 0.0
+    }
+   },
+   "sensor noise L": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.04014182898343732,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.11336788665689657,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.4182411286366605,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.07932631251858169,
+     "filtered_share": 0.0
+    }
+   },
+   "tilt lag 0.25 s": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.04273793168469986,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.1349745414173209,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.4182411286366605,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 8,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.024199317270996223,
+     "filtered_share": 0.0
+    }
+   },
+   "tilt lag 0.4 s": {
+    "random": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.03750683975966895,
+     "filtered_share": 0.0
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.13502213161587306,
+     "filtered_share": 0.0
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 20,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.4182411286366605,
+     "filtered_share": 0.0
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 18,
+     "alarm_episodes": 0,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": -0.05783039159238834,
+     "filtered_share": 0.0
+    }
+   }
+  },
+  "aware": {
+   "sensor noise S": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.04519568703243282,
+     "filtered_share": 0.1695
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.08856109387994737,
+     "filtered_share": 0.66525
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.033830107502530016,
+     "filtered_share": 0.9840833333333333
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.09706437124989231,
+     "filtered_share": 0.26866666666666666
+    }
+   },
+   "sensor noise M": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.06121622360306578,
+     "filtered_share": 0.1615
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.11240840739173918,
+     "filtered_share": 0.69925
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.05231487703530524,
+     "filtered_share": 0.9619166666666666
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.10709467198598421,
+     "filtered_share": 0.28891666666666665
+    }
+   },
+   "sensor noise L": {
+    "random": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.1732444556423443,
+     "filtered_share": 0.15808333333333333
+    },
+    "chase": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.1507411278450012,
+     "filtered_share": 0.7239166666666667
+    },
+    "full-thrust": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.08065180570917141,
+     "filtered_share": 0.9055
+    },
+    "mpc": {
+     "episodes": 20,
+     "crashes": 0,
+     "alarm_episodes": 20,
+     "crashes_alarmed_first": 0,
+     "lead_steps_median": null,
+     "lead_steps_min": null,
+     "min_margin": 0.20724024467837804,
+     "filtered_share": 0.35308333333333336
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "lane_keeping": {
+  "n_data": 2000000,
+  "cells": [
+   160,
+   120,
+   24
+  ],
+  "n_inputs": [
+   21
+  ],
+  "method": "growth",
+  "local": "slab",
+  "t_model": 0.34560831099997813,
+  "t_abstraction": 2.231689354000025,
+  "t_synthesis": 0.7360595069999931,
+  "coverage": 0.4569118923611111,
+  "memory_mb": 9.228515625,
+  "wall_time": 3.576909354999998,
+  "exact_model_same_grid": 0.5404557291666666,
+  "fine_grid_fixed_speed": {
+   "15.0": 0.5916111111111111,
+   "22.5": 0.6120277777777777,
+   "29.9999": 0.615
+  }
+ },
+ "quadrotor": {
+  "lateral": {
+   "n_data": 2000000,
+   "cells": [
+    120,
+    240,
+    40
+   ],
+   "n_inputs": [
+    21
+   ],
+   "method": "growth",
+   "local": "slab",
+   "t_model": 0.3262756199999899,
+   "t_abstraction": 5.797020804999988,
+   "t_synthesis": 1.9282350660000134,
+   "coverage": 0.42966493055555555,
+   "memory_mb": 23.0712890625
+  },
+  "vertical": {
+   "n_data": 2000000,
+   "cells": [
+    120,
+    80
+   ],
+   "n_inputs": [
+    21
+   ],
+   "method": "growth",
+   "local": "slab",
+   "t_model": 0.23056041500001356,
+   "t_abstraction": 0.02656010199996217,
+   "t_synthesis": 0.006692477000001418,
+   "coverage": 0.8041666666666667,
+   "memory_mb": 0.1922607421875
+  },
+  "wall_time": 8.605021189000013
+ }
+}

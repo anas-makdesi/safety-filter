@@ -1,0 +1,189 @@
+{
+ "params": {
+  "dt": 0.05,
+  "v_min": 20.0,
+  "v_max": 28.0,
+  "sigma_max": 25.0,
+  "kappa_max": 0.0005,
+  "rho": 0.03,
+  "e_y_max": 0.85,
+  "e_psi_max": 0.1,
+  "noise_y": 0.002,
+  "G": [
+   50.0,
+   62.0
+  ],
+  "K": [
+   0.0,
+   0.0012
+  ],
+  "sigma0_max": 0.5
+ },
+ "data": {
+  "learn_steps": 50770,
+  "test_steps": 65581,
+  "learn_minutes": 42.30833333333333,
+  "test_minutes": 54.65083333333334,
+  "learn_sigma_pct": [
+   -17.100000381469727,
+   20.80771571159357
+  ],
+  "share_beyond_12deg": 0.022158755170376205
+ },
+ "check_learn": {
+  "ok": true,
+  "points": 50770,
+  "violating_pairs": 0,
+  "rho_needed": 0.03
+ },
+ "check_test": {
+  "ok": true,
+  "points": 65581,
+  "violating_pairs": 0,
+  "rho_needed": 0.03
+ },
+ "check_seconds": 0.04768327200008571,
+ "twin": {
+  "G": 51.296816621508114,
+  "K": 0.0007,
+  "sigma0": -0.35599727813096754,
+  "lag_steps": 1,
+  "lag_rms": {
+   "0": 0.005749152973294258,
+   "1": 0.005606146529316902,
+   "2": 0.005706798750907183,
+   "3": 0.0060212076641619205,
+   "4": 0.006467711646109819
+  },
+  "residual_pct": [
+   0.0032836617901921272,
+   0.013858528435230253,
+   0.020590242259204944,
+   0.03857659921050072
+  ]
+ },
+ "filter": {
+  "n_data": 406160,
+  "cells": [
+   160,
+   100,
+   16
+  ],
+  "n_inputs": [
+   26
+  ],
+  "method": "growth",
+  "local": "slab",
+  "t_model": 0.11005678799983798,
+  "t_abstraction": 1.3417919369999254,
+  "t_synthesis": 0.3526398680000966,
+  "coverage": 0.39376953125,
+  "memory_mb": 6.34765625,
+  "n_real_steps": 50770,
+  "wall": 1.8267107519995989,
+  "contains_centre": {
+   "20": true,
+   "22": true,
+   "24": true,
+   "26": true,
+   "28": true
+  }
+ },
+ "heldout": {
+  "steps": 65581,
+  "inside": 1.0,
+  "mean_box_width_deg_per_s": 6.3410522167129155
+ },
+ "closed_loop": {
+  "none": {
+   "random": {
+    "crashes": 20,
+    "episodes": 20,
+    "ret": -9.861060513756886,
+    "min_margin": -0.038940354310788794,
+    "filtered_share": 0.0
+   },
+   "bang-bang": {
+    "crashes": 20,
+    "episodes": 20,
+    "ret": -38.69617309208212,
+    "min_margin": -0.10020130964896234,
+    "filtered_share": 0.0
+   },
+   "full-lock": {
+    "crashes": 20,
+    "episodes": 20,
+    "ret": -38.82689605720837,
+    "min_margin": -0.11170203259064848,
+    "filtered_share": 0.0
+   },
+   "driver": {
+    "crashes": 0,
+    "episodes": 20,
+    "ret": 560.2171615918116,
+    "min_margin": 0.056458104828104205,
+    "filtered_share": 0.0
+   }
+  },
+  "filter": {
+   "random": {
+    "crashes": 15,
+    "episodes": 20,
+    "ret": 111.5840368908013,
+    "min_margin": -0.03192826627492862,
+    "filtered_share": 0.1316013628620102
+   },
+   "bang-bang": {
+    "crashes": 20,
+    "episodes": 20,
+    "ret": -39.46058697427833,
+    "min_margin": -0.1073996126832989,
+    "filtered_share": 0.4176470588235294
+   },
+   "full-lock": {
+    "crashes": 20,
+    "episodes": 20,
+    "ret": -39.571205890606606,
+    "min_margin": -0.09472028058519233,
+    "filtered_share": 0.4208955223880597
+   },
+   "driver": {
+    "crashes": 0,
+    "episodes": 20,
+    "ret": 560.6744679102381,
+    "min_margin": 0.08382393987768422,
+    "filtered_share": 0.0014166666666666668
+   }
+  },
+  "delay-aware filter": {
+   "random": {
+    "crashes": 0,
+    "episodes": 20,
+    "ret": 284.45209568927373,
+    "min_margin": 0.12091690067420013,
+    "filtered_share": 0.157
+   },
+   "bang-bang": {
+    "crashes": 0,
+    "episodes": 20,
+    "ret": 468.3055777407443,
+    "min_margin": 0.1651041582886611,
+    "filtered_share": 1.0
+   },
+   "full-lock": {
+    "crashes": 0,
+    "episodes": 20,
+    "ret": 126.5604388906174,
+    "min_margin": 0.08793438239382256,
+    "filtered_share": 1.0
+   },
+   "driver": {
+    "crashes": 0,
+    "episodes": 20,
+    "ret": 561.1404950145637,
+    "min_margin": 0.15304181041053921,
+    "filtered_share": 0.0010833333333333333
+   }
+  }
+ }
+}
