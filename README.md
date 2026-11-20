@@ -165,6 +165,10 @@ kinematics. 55 minutes from other days are held out.
 
   ![Crashes of trained agents when no filter is present](figures/reliance.png)
 
+  *On lane keeping, every trained agent stays clear of the lane edges, so removing the
+  filter changes nothing; the 5x-penalty and correction-ends-episode arms were run on the
+  quadrotor only.*
+
 - **The filter can change what is learned.** On lane keeping, PPO trained behind the
   filter ended 3 % below PPO trained without it (582 ± 14 against 600), although the
   filter never corrects the trained agent; with the penalty the gap disappears (600).

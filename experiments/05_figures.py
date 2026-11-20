@@ -86,6 +86,8 @@ def reliance(rl):
         for g, (b, a) in enumerate(groups):
             r = rl.get(f"{b}/{a}/{cond}")
             if r is None:
+                ax.text(g + (k - (len(conds) - 1) / 2) * w, 1.5, "not run", ha="center",
+                        va="bottom", rotation=90, color=MUTED, fontsize=7.5)
                 continue
             n = r["eval_crashes"] if cond == "none" else r["swap_crashes"]
             xs.append(g + (k - (len(conds) - 1) / 2) * w)
@@ -93,6 +95,13 @@ def reliance(rl):
         ax.bar(xs, vals, w * 0.92, color=color, label=f"trained with: {name}")
         for xi, v in zip(xs, vals, strict=True):
             ax.text(xi, v + 1.5, f"{v:.0f}", ha="center", va="bottom", color=INK, fontsize=8.5)
+    lane = [g for g, (b, _) in enumerate(groups) if b == "lane"]
+    if lane and all((rl.get(f"{groups[g][0]}/{groups[g][1]}/{c}") or {}).get(
+            "eval_crashes" if c == "none" else "swap_crashes", 0) == 0
+            for g in lane for c in conds):
+        ax.text(np.mean(lane), 30, "Lane keeping: trained agents stay clear of the\n"
+                "lane edges, so removing the filter changes nothing",
+                ha="center", va="bottom", color=MUTED, fontsize=9)
     ax.set_xticks(np.arange(len(groups)), [f"{BENCH[b]}\n{ALGO[a]}" for b, a in groups])
     ax.set_ylabel("episodes with a crash (%)")
     ax.set_ylim(0, 110)
